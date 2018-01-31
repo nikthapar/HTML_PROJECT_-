@@ -1,0 +1,38 @@
+.wrap {
+	margin:auto;
+	width:70%;
+	background-color:pink;
+	overflow:hidden;
+}
+.content{
+	background-color: red;
+	float :left;
+	width: 80%;
+	height: 600px;
+}
+#nav{
+	background-color: black;
+	border: 1px solid white;
+
+}
+#nav li{
+    display:inline;
+    padding-right: 20px;
+}
+#nav li a{
+	text-decoration : none;
+}
+#nav li a:hover{
+	color: red;
+	text-decoration: underline;
+}
+aside{
+	background-color: green;
+	height : 600px;
+	float :left;
+	width:20%
+}
+aside ul{
+	list-style:none;
+	padding-left:0;
+}
